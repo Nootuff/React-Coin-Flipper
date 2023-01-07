@@ -41,6 +41,7 @@ class Flipper extends React.Component {
                 <h2>{this.rand}</h2>
                 <Coin source={this.state.coinImg} alt={this.state.result} /> {/*The coin component*/}
                 <h3>{this.state.result}</h3>
+                <p>Test change</p>
                 <p>Out of <b>{this.state.flipped}</b> flips, <b>{this.state.heads}</b> heads and <b>{this.state.tails}</b> tails.</p>
                 <button onClick={this.handleClick}>Flip</button>
             </div>
